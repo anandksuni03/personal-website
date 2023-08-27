@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #080808;
+    color: #fff;
+    overflow-x: hidden;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/BG2.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+
+ }
+
+
+.container{
+    padding: 10px 0%;
+}
+.container-rest{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    
+    
+    
+}
+nav.scrolled{
+    background-color: #080808;
+    box-shadow: 0 3px 10px rgba(0, 0, 0.15);
+    z-index: 1000S;
+   
+    
+}
+.logo{
+    width: 140px;
+    scale: 1;
+    margin-left: 0;
+}
+nav ul li{
+    display: inline-block;  /*horizontal arrangement*/
+    list-style: none;
+    margin: 10px 20px;
+  
+
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;  /*to remove underline*/
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #8A2BE2; 
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+    padding: 10px 10%;
+    font-family: sourcecode;
+}
+.header-text h1{
+    font-size: 100px;
+    margin-top: 20px;
+
+}
+.header-text h1 span{
+    color: #8A2BE2;
+}
