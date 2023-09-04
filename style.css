@@ -54,6 +54,7 @@ nav.scrolled{
     width: 140px;
     scale: 1;
     margin-left: 0;
+    z-index: 500;
 }
 nav ul li{
     display: inline-block;  /*horizontal arrangement*/
@@ -95,4 +96,47 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color: #8A2BE2;
+}
+/*-----About-----------*/
+#about{
+    padding: 80px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;  /*to adapt into different scrren sizes*/
+}
+.about-col-1 img{
+    width:100%;
+    border-radius: 15px;  /*to get round edge picture*/
+}
+
+.about-col-2{
+    flex-basis: 60%;
+
+} 
+.my{
+    width: 0;
+}
+.my:hover{
+    transform: translateY(-10px);
+    transition-duration: .5s;
+}
+.sub-tiltle{
+     font-size: 60px;
+     font-weight: 600;
+     color: #8A2BE2
+}
+.tab-titles{ /*horizontal aarangement*/
+    display: flex;
+    margin: 20px 0 40px; /* from top,side,down*/
+}
+.abtme{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
 }
