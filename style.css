@@ -97,6 +97,9 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #8A2BE2;
 }
+.sub-tiltle{
+    color: #8A2BE2;
+    text-align: center;
 /*-----About-----------*/
 #about{
     padding: 80px;
