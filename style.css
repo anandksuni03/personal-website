@@ -100,6 +100,7 @@ nav ul li a:hover::after{
 .sub-tiltle{
     color: #8A2BE2;
     text-align: center;
+}
 /*-----About-----------*/
 #about{
     padding: 80px;
